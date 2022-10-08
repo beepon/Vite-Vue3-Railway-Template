@@ -10,20 +10,7 @@ const count = ref(0)
 
 <template>
 
-    <div id="app">
-      {{ greeting }}
-    </div>
-    <script type="module" src="/src/main.js"></script>\
-    <script>
-       let App = Vue.createApp({
-           data: function(){
-            return {
-             greeting: 'Hello Vue' 
-            }
-           }  
-       })
-       App.mount('#app');
-    </script>
+    Hello world
 
 </template>
 
